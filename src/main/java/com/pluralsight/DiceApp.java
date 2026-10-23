@@ -18,7 +18,7 @@ public class DiceApp {
         // * Create a loop that executes 100 times. Inside the loop roll 2 dice
         while (looper <= 99) {
             int roll1 = dice.roll(1, 6);
-            int roll2 = dice.Roll(1, 6);
+            int roll2 = dice.roll(1, 6);
             int sum = roll1 + roll2;
             if (sum == 2) {
                 twoCount++;
